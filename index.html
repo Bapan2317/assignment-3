@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- Font awesome kit link -->
+    <script src="https://kit.fontawesome.com/afa27c8be3.js" crossorigin="anonymous"></script>
+    <!-- Google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Sora:wght@100..800&display=swap" rel="stylesheet">
+    <!-- DaisyUI CDN -->
+     <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        clifford: '#da373d',
+                        "color_primary" : '#179800',
+                        "bg_primary": '#EFEBE3',
+                    }
+                }                                                       
+            }
+        }
+  </script>
+    <style>
+        .sora-font {
+            font-family: "Sora", serif;
+        }  
+        .normal_bg {
+          background: url(c2-assets/vegetable-offer.png);
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header class="pt-10">
+        <!-- Navbar section -->
+        <section class="container mx-auto ">
+            <div class="navbar bg-base-100 items-center">
+                <div class="navbar-start">
+                  <div class="dropdown ">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg
+                        xmlns="http://www.w3.org/2000/svg"
+                        class="h-5 w-5"
+                        fill="none"
+                        viewBox="0 0 24 24"
+                        stroke="currentColor">
+                        <path
+                          stroke-linecap="round"
+                          stroke-linejoin="round"
+                          stroke-width="2"
+                          d="M4 6h16M4 12h8m-8 6h16" />
+                      </svg>
+                    </div>
+                    <ul
+                      tabindex="0"
+                      class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+                      
+                        <li><a href="">Product</a></li>
+                        <li><a href="">Services</a></li>
+                        <li><a href="">Contact us</a></li>
+
+                    </ul>
+                    
+                  </div>
+                  <img src="c2-assets/logo-header.png" alt="" class="invisible md:visible">
+                </div>
+                <div class="navbar-center hidden lg:flex">
+                  <ul class="menu menu-horizontal px-1">
+                    
+                    
+                    <li><a href="" class="sora-font text-xl invisible md:visible">Product</a></li>
+                    <li><a href="" class="sora-font text-xl invisible md:visible">Services</a></li>
+                    <li><a href="" class="sora-font text-xl invisible md:visible">Contact us</a></li>
+
+                  </ul>
+                </div>
+                <div class="navbar-end space-x-4">
+                    <div class="space-x-5 mr-3">
+                      
+                        <i class="fa-solid fa-magnifying-glass text-xl invisible md:visible"></i>
+                        <i class="fa-solid fa-cart-shopping text-xl invisible md:visible"></i>
+                    </div>
+                    
+                    <a class="btn bg-opacity-0 text-lg border-2 border-green-300 rounded-lg px-7 invisible md:visible">Login</a>
+                    <a class="btn bg-color_primary text-lg text-[#fff] px-7 invisible md:visible">Register</a>
+                    <img src="c2-assets/Group(1).png" alt="" class="md:invisible flex justify-end pr-7">
+                    
+                </div>
+              </div>
+        </section>
+
+        <!-- Banner section -->
+        <section class="bg-gradient-to-b from-white to-orange-100 px-8">
+
+            <!-- Banner content -->
+            <div class="text-center mb-10">
+                <h1 class="text-3xl md:text-6xl font-semibold mb-8 pt-24 leading-tight">Freshness <span class="text-color_primary">You Can <br> Count</span> On, Prices You’ll Love!</h1>
+                <p class="text-xl max-w-2xl mx-auto">Shop your daily essentials at unbeatable prices. From fresh produce to pantry staples, we’ve got you covered every day!</p>
+            </div>
+
+            <!-- Banner logo -->
+            <div>
+                <img src="c2-assets/hero-vegetables.png" alt="" class="mx-auto">
+            </div>
+
+        </section>
+    </header>
+
+    <!-- Main -->
+    <section>
+        
+    </section>
+</body>
+</html>
