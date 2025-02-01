@@ -4,6 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <!-- Css link -->
+    <link rel="stylesheet" href="style.css">
     <!-- Font awesome kit link -->
     <script src="https://kit.fontawesome.com/afa27c8be3.js" crossorigin="anonymous"></script>
     <!-- Google font -->
@@ -99,6 +101,13 @@
               </div>
         </section>
 
+        <!-- Animation -->
+        <section class="animation-section bg-bg_primary my-12 md:my-32">
+          <div class=" h-20 relative animation-div">
+              <h1 class="text-8xl font-bold text-color_primary text-center pt-52">Welcome</h1>
+          </div>
+      </section>
+
         <!-- Banner section -->
         <section class="bg-gradient-to-b from-white to-orange-100 px-8">
 
@@ -114,14 +123,15 @@
             </div>
 
         </section>
+
     </header>
 
     <!-- Main -->
-    <section>
+    <main>
         <!-- Service -->
-        <section class="my-32 p-4 container mx-auto">
+        <section class="my-12 md:my-32 p-4 container mx-auto">
 
-            <h1 class="text-4xl font-semibold text-color_primary mb-12">Services</h1>
+            <h1 class="text-2xl md:text-4xl font-semibold text-color_primary mb-8 md:mb-12">Services</h1>
 
             <!-- Cards -->
             <div class="grid gap-6 md:grid-cols-3">
@@ -147,16 +157,40 @@
 
         </section>
 
+        <!-- (Extra) New products -->
+        <section class="my-12 md:my-32 p-4 container mx-auto">
+          <h1 class="text-2xl md:text-4xl font-semibold text-color_primary mb-8 md:mb-12">Some tips</h1>
+          <div>
+            <div>
+              <h1 class="text-xl md:text-2xl font-bold pb-4 md:pb-8">Vegetable eating benefits</h1>
+              <ul class="text-lg md:text-xl space-y-2 md:space-y-7 list-disc ml-8">
+                <li><p><span>Weight loss:</span> Vegetables are low in calories and fat, so they can help you feel full without consuming extra calories. </p></li>
+                <li><p><span>Heart health:</span> Vegetables contain potassium and fiber, which are good for your heart. 
+                </p></li>
+                <li><p><span>Digestion:</span> Vegetables contain fiber, which can help with digestion and prevent constipation. 
+                </p></li>
+                <li><p><span>Antioxidants</span>: Vegetables contain antioxidants, which help protect your body from harmful molecules called free radicals. 
+                </p></li>
+              </ul>
+              
+              
+              
+              
+              
+            </div>
+          </div>
+        </section>
+
         <!-- Popular Products -->
-        <section class="bg-bg_primary flex justify-center mx-auto md:py-32">
+        <section class="bg-bg_primary flex justify-center mx-auto md:py-32 px-4 pt-12">
 
             <div class="mx-auto">
-              <h1 class="text-4xl font-semibold text-color_primary mb-12">Popular Products</h1>
+              <h1 class="text-2xl md:text-4xl font-semibold text-color_primary mb-8 md:mb-12">Popular Products</h1>
   
               <!-- contents -->
               <div class="flex flex-col md:flex-row gap-6">
                 <!-- Big image content -->
-                <div class="bg-gradient-to-br from-green-500 to-green-50 rounded-xl w-[424px] mx-auto">
+                <div class="bg-gradient-to-br from-green-500 to-green-50 rounded-xl md:w-[424px] mx-auto">
                   <div class="bg-[url(c2-assets/vegetable-offer.png)] bg-no-repeat bg-right-bottom h-[402px] p-8 space-y-6">
                     <h1 class="text-[#fff] text-2xl font-bold">30% off</h1>
                     <p class="text-xl">Discover a world of treats toys, and essentials handpicked for</p>
@@ -164,119 +198,119 @@
                   </div>
                 </div>
                 <!-- Small images contents -->
-                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8 px-4">
+                <div class="grid grid-cols-2 md:grid-cols-3 gap-4 md:gap-8">
                   <!-- card 1 -->
-                  <div class="flex gap-5 bg-[#fff] h-[118px] p-3 rounded-lg">
+                  <div class="flex gap-5 bg-[#fff] h-[88px] md:h-[118px] p-3 rounded-lg">
                     <!-- image -->
                     <div class="bg-bg_primary rounded-lg">
                       <img src="c2-assets/image 43.png" alt="">
                     </div>
                     <!-- content -->
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; 4.5
-                      <h1 class="text-xl">Onion 1 KG</h1>
-                      <p>$39.99</p>
+                    <div class="space-y-1">
+                      <i class="fa-solid fa-star text-yellow-500 text-xs"></i>&nbsp; <span class="text-xs md:text-base">4.5</span>
+                      <h1 class="text-sm md:text-xl">Onion 1 KG</h1>
+                      <p class="text-xs md:text-base">$39.99</p>
                     </div>
                   </div>
                   <!-- card 2 -->
-                  <div class="flex gap-5 bg-[#fff] h-[118px] p-3 rounded-lg">
+                  <div class="flex gap-5 bg-[#fff] h-[88px] md:h-[118px] p-3 rounded-lg">
                     <!-- image -->
                     <div class="bg-bg_primary rounded-lg">
                       <img src="c2-assets/image 41.png" alt="">
                     </div>
                     <!-- content -->
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; 4.5
-                      <h1 class="text-xl">Tomato 500 g </h1>
-                      <p>$39.99</p>
+                    <div class="space-y-1">
+                      <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; <span class="text-xs md:text-base">4.5</span>
+                      <h1 class="text-sm md:text-xl">Tomato 500 g </h1>
+                      <p class="text-xs md:text-base">$39.99</p>
                     </div>
                   </div>
                   <!-- card 3 -->
-                  <div class="flex gap-5 bg-[#fff] h-[118px] p-3 rounded-lg">
+                  <div class="flex gap-5 bg-[#fff] h-[88px] md:h-[118px] p-3 rounded-lg">
                     <!-- image -->
                     <div class="bg-bg_primary rounded-lg">
                       <img src="c2-assets/image 44.png" alt="">
                     </div>
                     <!-- content -->
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; 4.5
-                      <h1 class="text-xl">Potato 1 KG </h1>
-                      <p>$39.99</p>
+                    <div class="space-y-1">
+                      <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; <span class="text-xs md:text-base">4.5</span>
+                      <h1 class="text-sm md:text-xl">Potato 1 KG </h1>
+                      <p class="text-xs md:text-base">$39.99</p>
                     </div>
                   </div>
                   <!-- card 4 -->
-                  <div class="flex gap-5 bg-[#fff] h-[118px] p-3 rounded-lg">
+                  <div class="flex gap-5 bg-[#fff] h-[88px] md:h-[118px] p-3 rounded-lg">
                     <!-- image -->
                     <div class="bg-bg_primary rounded-lg">
                       <img src="c2-assets/image 41.png" alt="">
                     </div>
                     <!-- content -->
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; 4.5
-                      <h1 class="text-xl">Tomato 500 g </h1>
-                      <p>$39.99</p>
+                    <div class="space-y-1">
+                        <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; <span class="text-xs md:text-base">4.5</span>
+                        <h1 class="text-sm md:text-xl">Tomato 500 g </h1>
+                        <p class="text-xs md:text-base">$39.99</p>
                     </div>
                   </div>
                   <!-- card 5 -->
-                  <div class="flex gap-5 bg-[#fff] h-[118px] p-3 rounded-lg">
+                  <div class="flex gap-5 bg-[#fff] h-[88px] md:h-[118px] p-3 rounded-lg">
                     <!-- image -->
                     <div class="bg-bg_primary rounded-lg">
                       <img src="c2-assets/image 44.png" alt="">
                     </div>
                     <!-- content -->
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; 4.5
-                      <h1 class="text-xl">Potato 1 KG </h1>
-                      <p>$39.99</p>
+                    <div class="space-y-1">
+                        <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; <span class="text-xs md:text-base">4.5</span>
+                        <h1 class="text-sm md:text-xl">Potato 1 KG </h1>
+                        <p class="text-xs md:text-base">$39.99</p>
                     </div>
                   </div>
                   <!-- card 6 -->
-                  <div class="flex gap-5 bg-[#fff] h-[118px] p-3 rounded-lg">
+                  <div class="flex gap-5 bg-[#fff] h-[88px] md:h-[118px] p-3 rounded-lg">
                     <!-- image -->
                     <div class="bg-bg_primary rounded-lg">
                       <img src="c2-assets/image 43.png" alt="">
                     </div>
                     <!-- content -->
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; 4.5
-                      <h1 class="text-xl">Onion 1 KG</h1>
-                      <p>$39.99</p>
+                    <div class="space-y-1">
+                        <i class="fa-solid fa-star text-yellow-500 text-xs"></i>&nbsp; <span class="text-xs md:text-base">4.5</span>
+                        <h1 class="text-sm md:text-xl">Onion 1 KG</h1>
+                        <p class="text-xs md:text-base">$39.99</p>
                     </div>
                   </div>
                   <!-- card 7 -->
-                  <div class="flex gap-5 bg-[#fff] h-[118px] p-3 rounded-lg">
+                  <div class="flex gap-5 bg-[#fff] h-[88px] md:h-[118px] p-3 rounded-lg">
                     <!-- image -->
                     <div class="bg-bg_primary rounded-lg">
                       <img src="c2-assets/image 41.png" alt="">
                     </div>
                     <!-- content -->
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; 4.5
-                      <h1 class="text-xl">Tomato 500 g </h1>
-                      <p>$39.99</p>
+                    <div class="space-y-1">
+                        <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; <span class="text-xs md:text-base">4.5</span>
+                        <h1 class="text-sm md:text-xl">Tomato 500 g </h1>
+                        <p class="text-xs md:text-base">$39.99</p>
                     </div>
                   </div>
                   <!-- card 8 -->
-                  <div class="flex gap-5 bg-[#fff] p-3 rounded-lg">
+                  <div class="flex gap-5 bg-[#fff] h-[88px] md:h-[118px] p-3 rounded-lg">
                     <!-- image -->
                     <div class="bg-bg_primary rounded-lg">
                       <img src="c2-assets/image 44.png" alt="">
                     </div>
                     <!-- content -->
-                    <div>
-                      <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; 4.5
-                      <h1 class="text-xl">Potato 1 KG </h1>
-                      <p>$39.99</p>
+                    <div class="space-y-1">
+                        <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; <span class="text-xs md:text-base">4.5</span>
+                        <h1 class="text-sm md:text-xl">Potato 1 KG </h1>
+                        <p class="text-xs md:text-base">$39.99</p>
                     </div>
                   </div>
                   <!-- card 9 -->
-                  <div class="flex gap-5 bg-[#fff] p-3 rounded-lg invisible md:visible">
+                  <div class="flex gap-5 bg-[#fff] h-[88px] md:h-[118px] p-3 rounded-lg invisible md:visible">
                     <!-- image -->
                     <div class="bg-bg_primary rounded-lg">
                       <img src="c2-assets/image 41.png" alt="">
                     </div>
                     <!-- content -->
-                    <div>
+                    <div class="space-y-1">
                       <i class="fa-solid fa-star text-yellow-500"></i>&nbsp; 4.5
                       <h1 class="text-xl">Tomato 500 g </h1>
                       <p>$39.99</p>
@@ -287,6 +321,84 @@
             </div>
   
         </section>
-    </section>
+
+        <!-- Arrival & Offers -->
+        <section class="container mx-auto px-4 py-12 md:py-32">
+            <h1 class="text-2xl md:text-4xl font-semibold text-color_primary mb-12">Arrival & Offers</h1>
+            <!-- cards -->
+            <div class="flex flex-col md:flex-row gap-5">
+              <!-- card 1 -->
+              <div class="bg-[#115414] flex md:w-[780px] md:h-[344px] box-border rounded-xl justify-between">
+                <!-- contents -->
+                <div class="p-12 space-y-5 md:space-y-7">
+                  <img src="c2-assets/dawat-logo.png" alt="">
+                  <button class="btn text-[#fff]  text-sm md:text-xl bg-[#63B76D] border-0  md:px-8 font-normal">Cook Exotic Dishes</button>
+                  <h1 class=" text-xl md:text-4xl text-[#fff]">UP to <span class="font-bold">20% OFF</span></h1>
+                </div>
+                <!-- image -->
+                <div class="mt-8">
+                  <img src="c2-assets/dawat-mock-up.png" alt="">
+                </div>
+              </div>
+              <!-- card 2 -->
+              <div class="bg-[#102861] flex md:w-[520px] h-[344px] box-border rounded-xl justify-between">
+                <!-- contents -->
+                <div class="py-12 pl-7 space-y-5 md:space-y-7">
+                  <img src="c2-assets/india-gate-logo.png" alt="">
+                  <button class="btn text-[#fff] text-sm md:text-xl bg-[#2A4D97] border-0 px-8 font-normal">World’s No.1 Rice</button>
+                  <h1 class="text-xl md:text-4xl text-[#fff]">UP to <span class="font-bold">40% OFF</span></h1>
+                </div>
+                <!-- image -->
+                <div class="mt-8 pr-4">
+                  <img src="c2-assets/india-gate-mock-up.png" alt="">
+                </div>
+              </div>
+            </div>
+        </section> 
+    </main>
+
+    <aside>
+        <!-- Get Grocery News -->
+        <section class="flex flex-col md:flex-row md:gap-32 bg-bg_primary w-[358px] md:w-[1320px] h-[468px] md:h-[460px] md:px-24 md:py-14 rounded-xl relative top-52 left-30 mx-auto -mt-48 md:-mt-56">
+          <!-- image content -->
+          <div class="">
+            <img src="c2-assets/vegetable-busket.png" alt="" class="w-[232px] md:w-full mx-auto">
+          </div>
+          <!-- text content -->
+          <div class="space-y-9 mt-6 md:mt-24 text-center md:text-start">
+            <h1 class="text-4xl font-semibold">Get Grocery News!</h1>
+            <p class="text-xl">Exclusive training tips, ticks, product deals and more.</p>
+            <input type="text" placeholder="Enter email...." class="input w-full max-w-xs" />
+          </div>
+        </section>
+      </aside>
+
+      <!-- Footer -->
+    <footer class="bg-[#179800] flex flex-col md:flex-row justify-between pl-4 md:px-32 pt-64 pb-36 text-[#fff]">
+
+        <!-- div 1 -->
+        <div>
+          <img src="c2-assets/logo-footer.png" alt="">
+          <p class="text-base md:text-xl mt-3 text-[#ffffffa9] md:text-[#fff] max-w-xs mb-9">Discover a world of treats, toys, and essentials handpicked for your furry friends</p>
+        </div>
+        <!-- div 2 -->
+        <div class="mb-9">
+          <ul class="space-y-5 md:space-y-8">
+            <li><a class="text-base md:text-xl" href="">Product</a></li>
+            <li><a class="text-base md:text-xl"href="">Services</a></li>
+            <li><a class="text-base md:text-xl"href="">Contact us</a></li>
+          </ul>
+        </div>
+        <!-- dib 3 -->
+        <div>
+          <p>Follow Us</p>
+          <div class="space-x-7 mt-2">
+            <a href=""><i class="fa-brands fa-facebook"></i></a>
+            <a href=""><i class="fa-brands fa-instagram"></i></a>
+            <a href=""><i class="fa-brands fa-twitter"></i></a>
+            <a href=""><i class="fa-brands fa-youtube"></i></a>
+          </div>
+        </div>
+      </footer>
 </body>
 </html>

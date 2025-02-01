@@ -1,0 +1,18 @@
+/* Animation */
+@keyframes welcome {
+    from {
+        bottom: -200px;
+    }
+    to {
+        bottom: 0px;
+    }
+    
+}
+
+
+.animation-section {
+    height: 500px;   
+}
+.animation-div {
+    animation: welcome 4s ease-in-out 1s 1 alternate;
+}
